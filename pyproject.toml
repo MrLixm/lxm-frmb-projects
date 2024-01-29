@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "lxm-frmb-projects"
+version = "0.1.0"
+description = ""
+authors = ["Liam Collod <lcollod@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+frmb = { git = "https://github.com/MrLixm/frmb.git", branch = "main"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

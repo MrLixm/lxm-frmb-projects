@@ -1,0 +1,458 @@
+Windows Registry Editor Version 5.00
+
+; File auto-generated from frmb v1.0.0.
+; generated from Z:\packages-dev\lxm-frmb-project\src\main
+
+
+; abcinfo
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.abc\shell\abcinfo]
+"MUIVerb"="abcinfo"
+"icon"="%ABCINFO%"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.abc\shell\abcinfo\shell\abcinfo-verbose]
+"MUIVerb"="abcinfo verbose"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.abc\shell\abcinfo\shell\abcinfo-verbose\command]
+@="cmd /k \"\"%%ABCINFO%%\" -v \"%1\"\""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.abc\shell\abcinfo\shell\abcinfo]
+"MUIVerb"="abcinfo"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.abc\shell\abcinfo\shell\abcinfo\command]
+@="cmd /k \"\"%%ABCINFO%%\" \"%1\"\""
+
+; ffmpeg - image sequences
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\ffmpeg-sequences]
+"MUIVerb"="ffmpeg - image sequences"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\ffmpeg-sequences\shell\sequence-to-video-interactive]
+"MUIVerb"="convert sequence to video - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\ffmpeg-sequences\shell\sequence-to-video-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-sequences\\ffmpeg-seq-to-video.bat\" %1"
+
+; ffmpeg - to GIFs
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs]
+"MUIVerb"="ffmpeg - to GIFs"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive]
+"MUIVerb"="convert video to .gif - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\ffmpeg-togif.bat\" %1 1"
+
+; convert video to .gif [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets]
+"MUIVerb"="convert video to .gif [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 2 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 2 \"\"\" sierra2_4a"
+
+; ffmpeg - to GIFs
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs]
+"MUIVerb"="ffmpeg - to GIFs"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive]
+"MUIVerb"="convert video to .gif - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\ffmpeg-togif.bat\" %1 1"
+
+; convert video to .gif [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets]
+"MUIVerb"="convert video to .gif [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 2 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 2 \"\"\" sierra2_4a"
+
+; ffmpeg - to GIFs
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs]
+"MUIVerb"="ffmpeg - to GIFs"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive]
+"MUIVerb"="convert video to .gif - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\ffmpeg-togif.bat\" %1 1"
+
+; convert video to .gif [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets]
+"MUIVerb"="convert video to .gif [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 2 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 2 \"\"\" sierra2_4a"
+
+; ffmpeg - to GIFs
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs]
+"MUIVerb"="ffmpeg - to GIFs"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive]
+"MUIVerb"="convert video to .gif - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\ffmpeg-togif.bat\" %1 1"
+
+; convert video to .gif [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets]
+"MUIVerb"="convert video to .gif [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 2 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 2 \"\"\" sierra2_4a"
+
+; ffmpeg - to GIFs
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs]
+"MUIVerb"="ffmpeg - to GIFs"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive]
+"MUIVerb"="convert video to .gif - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\ffmpeg-togif.bat\" %1 1"
+
+; convert video to .gif [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets]
+"MUIVerb"="convert video to .gif [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:24 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-24fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 24 2 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:floyd_steinberg"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-floyd\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" floyd_steinberg"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/1 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd1-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 1 \"\"\" sierra2_4a"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a]
+"MUIVerb"="convert video to .gif - fps:50 size:/2 dithering:sierra2_4a"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-to-gifs\shell\video-to-gif-presets\shell\togif-50fps-sd2-sierra24a\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-to-gifs\\video-to-gif-presets\\..\\ffmpeg-togif.bat\" %1 0 50 2 \"\"\" sierra2_4a"
+
+; ffmpeg - videos
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos]
+"MUIVerb"="ffmpeg - videos"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-interactive]
+"MUIVerb"="convert source to optimized .mp4 - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\ffmpeg-mp4-optimize.bat\" %1 1"
+
+; convert source to optimized .mp4 [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets]
+"MUIVerb"="convert source to optimized .mp4 [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:fast:film:23"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 fast film 23 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:medium:film:18"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 medium film 18 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:slower:film:12"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mov\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 slower film 12 1920 -opti"
+
+; ffmpeg - videos
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos]
+"MUIVerb"="ffmpeg - videos"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-interactive]
+"MUIVerb"="convert source to optimized .mp4 - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\ffmpeg-mp4-optimize.bat\" %1 1"
+
+; convert source to optimized .mp4 [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets]
+"MUIVerb"="convert source to optimized .mp4 [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:fast:film:23"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 fast film 23 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:medium:film:18"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 medium film 18 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:slower:film:12"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mp4\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 slower film 12 1920 -opti"
+
+; ffmpeg - videos
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos]
+"MUIVerb"="ffmpeg - videos"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-interactive]
+"MUIVerb"="convert source to optimized .mp4 - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\ffmpeg-mp4-optimize.bat\" %1 1"
+
+; convert source to optimized .mp4 [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets]
+"MUIVerb"="convert source to optimized .mp4 [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:fast:film:23"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 fast film 23 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:medium:film:18"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 medium film 18 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:slower:film:12"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mkv\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 slower film 12 1920 -opti"
+
+; ffmpeg - videos
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos]
+"MUIVerb"="ffmpeg - videos"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-interactive]
+"MUIVerb"="convert source to optimized .mp4 - interactive"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-interactive\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\ffmpeg-mp4-optimize.bat\" %1 1"
+
+; convert source to optimized .mp4 [presets]
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets]
+"MUIVerb"="convert source to optimized .mp4 [presets]"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:fast:film:23"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-fast_film_23\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 fast film 23 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:medium:film:18"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-med_film_18\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 medium film 18 1920 -opti"
+
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12]
+"MUIVerb"="convert .mp4 - fps:24 size:1920 quality:slower:film:12"
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.avi\shell\ffmpeg-videos\shell\video-to-mp4-presets\shell\tomp4-fps24-size1920-slower_film_12\command]
+@="cmd /k \"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\ffmpeg-videos\\video-to-mp4-presets\\..\\ffmpeg-mp4-optimize.bat\" %1 0 24 slower film 12 1920 -opti"
+
+; maketx
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\maketx]
+"MUIVerb"="maketx"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\maketx.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\maketx\shell\convert-tx-sRGB]
+"MUIVerb"="convert to .tx - sRGB source"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\maketx\shell\convert-tx-sRGB\command]
+@="cmd /k \"\"%%MAKETX%%\" \"%1\"\" --colorconvert sRGB linear -v -u --unpremult --format exr"
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\maketx\shell\convert-tx]
+"MUIVerb"="convert to .tx"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\maketx\shell\convert-tx\command]
+@="cmd /k \"\"%%MAKETX%%\" \"%1\"\" -v -u --unpremult --format exr"
+
+; OIIO Tool
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool]
+"MUIVerb"="OIIO Tool"
+"icon"="Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool.ico"
+"subCommands"=""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\0_display-info-subimages]
+"MUIVerb"="display info (subimages)"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\0_display-info-subimages\command]
+@="cmd /k \"\"%%OIIOTOOL%%\" --info -v -a \"%1\"\""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\0_display-info]
+"MUIVerb"="display info + stats"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\0_display-info\command]
+@="cmd /k \"\"%%OIIOTOOL%%\" --info -v --stats \"%1\"\""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-ico]
+"MUIVerb"="convert to .ico"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-ico\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-ico-convert.bat\" \"%1\"\""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-jpg]
+"MUIVerb"="convert to .jpg"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-jpg\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-jpg-convert.bat\" \"%1\"\""
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-png-16bit]
+"MUIVerb"="convert to .png - 16bit"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-png-16bit\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-png-convert.bat\" \"%1\"\" uint16"
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-png-8bit]
+"MUIVerb"="convert to .png - 8bit"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\convert-to-png-8bit\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-png-convert.bat\" \"%1\"\" uint8"
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-1024]
+"MUIVerb"="rescale 1024"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-1024\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-rescale.bat\" \"%1\"\" 1024"
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-2048]
+"MUIVerb"="rescale 2048"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-2048\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-rescale.bat\" \"%1\"\" 2048"
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-4096]
+"MUIVerb"="rescale 4096"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-4096\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-rescale.bat\" \"%1\"\" 4096"
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-512]
+"MUIVerb"="rescale 512"
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\oiiotool\shell\rescale-512\command]
+@="cmd /k \"\"Z:\\packages-dev\\lxm-frmb-project\\src\\main\\oiiotool\\batch\\oiiotool-rescale.bat\" \"%1\"\" 512"
